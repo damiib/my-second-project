@@ -1,81 +1,85 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
-    width: 70px; 
-margin-left: 45px;
+  width: 70px;
+  margin-left: 45px;
 }
 
-#images{
-    display:flex;
-    justify-content:space-around
+#images {
+  display: flex;
+  justify-content: space-around;
 }
-    
+
 #images section {
-display: flex;
-flex-direction: column;
-    width: 25%;
-text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
 }
 header {
-    background-color: rgb(238, 210, 227);
+  background-color: rgb(238, 210, 227);
 }
 nav {
-display: flex;
-justify-content: space-between;
-        color: rgb(71, 53, 53);
-                  width: 100%;
-            height:  100px;
-            font-size: 20px;
-        
-        
+  display: flex;
+  justify-content: space-between;
+  color: rgb(71, 53, 53);
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+}
+
+img {
+  width: 350px;
+  height: 350px;
 }
 
 ul li {
-list-style: none;
-display: inline-block;
-line-height: 100px;}
+  list-style: none;
+  display: inline-block;
+  line-height: 100px;
+}
 
 ul li a {
-    text-decoration: none;
-    color: grey;
-    font-size:  14;
-    padding: 0 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-} 
+  text-decoration: none;
+  color: grey;
+  font-size: 14;
+  padding: 0 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 ul li a:hover {
-    color: floralwhite;
+  color: floralwhite;
 }
 
-
-
-body{
-    font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: pink
+body {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: pink;
 }
 .about {
-    padding: 30px;
-    background:rgb(148, 156, 206);
-    color:rgb(148, 156, 206);
+  padding: 30px;
+  background: rgb(148, 156, 206);
+  color: rgb(148, 156, 206);
 }
 
-.My Work {
+/* .My Work {
     padding: 30px;
     background:rgb(148, 156, 206);
     color:rgb(148, 156, 206);
-}
+} */
 
-.Contact13 {
+/* .Contact13 {
     padding: 30px;
     background:rgb(148, 156, 206);
     color:rgb(148, 156, 206);
-}
+} */
 footer {
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+footer a {
+  margin: 5px;
 }
