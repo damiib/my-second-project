@@ -5,8 +5,9 @@
 }
 
 .logo {
-  width: 70px;
-  margin-left: 45px;
+  width: 100px;
+  height: 100px;
+  
 }
 
 #images {
@@ -61,8 +62,8 @@ body {
 }
 .about {
   padding: 30px;
-  background: rgb(148, 156, 206);
-  color: rgb(148, 156, 206);
+  
+  color: rgb(98, 100, 109);
 }
 
 /* .My Work {
@@ -79,7 +80,9 @@ body {
 footer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 footer a {
-  margin: 5px;.lf,
+  padding-left: 10px;
+  padding-right: 10px;
 }
