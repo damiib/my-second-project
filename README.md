@@ -1,1 +1,2 @@
 # my-second-project
+This is my portfolio.  I have made small changes to the orignal portfolio.  I updated the introduction text on the website.  The images that I included in this project were from my previous class assignments. I have also included my github link in this updated portfolio
