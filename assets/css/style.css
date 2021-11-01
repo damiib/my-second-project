@@ -22,12 +22,12 @@
   text-align: center;
 }
 header {
-  background-color: rgb(238, 210, 227);
+  background-color: rgb(83, 77, 81);
 }
 nav {
   display: flex;
   justify-content: space-between;
-  color: rgb(71, 53, 53);
+  color: rgb(248, 233, 233);
   width: 100%;
   height: 100px;
   font-size: 20px;
@@ -46,7 +46,7 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  color: grey;
+  color: rgb(255, 253, 253);
   font-size: 14;
   padding: 0 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -58,12 +58,12 @@ ul li a:hover {
 body {
   font-size: 40px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: pink;
+  background-color: rgb(153, 160, 156);
 }
 .about {
   padding: 30px;
   
-  color: rgb(98, 100, 109);
+  color: rgb(11, 11, 12);
 }
 
 /* .My Work {
