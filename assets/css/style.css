@@ -8,25 +8,26 @@ html {
   width: 100%;
 }
 header {
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(68, 66, 66);
 }
 
 nav {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   color: rgb(248, 233, 233);
   width: 100%;
   height: 100px;
   font-size: 20px;
 }
-h1{
+h1 {
   text-align: left;
   line-height: 300px;
   color: rgb(255, 254, 254);
 }
 section {
   height: 500px;
-  border: solid black 1px;
+  border: solid rgb(56, 55, 55) 1px;
+  background-color: rgb(14, 13, 13);
 }
 
 .logo {
@@ -49,75 +50,59 @@ ul li a {
 ul li a:hover {
   color: rgb(197, 139, 23);
 }
-.about me .contact{
+.about me .contact {
   display: flex;
   padding: 80px;
-  text-color:purple;
+  text-color: purple;
   justify-content: right;
-  
-
 }
 .about {
   padding: 30px;
-  text-align:right;
+  text-align: right;
   color: rgb(11, 11, 12);
 }
 
 #images {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .projects-card {
   width: 300px;
   height: 500px;
-
 }
-.projects {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  text-align: center;
+.projects-card {
+  display: grid;
   height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 12px;
+  align-items: center;
 }
 
-img {
-  width: 350px;
-  height: 350px;
-/* responsive for images  */
-  display:flex;
-  flex-direction: column;
-  height: 100%;
-}
 
+.project-image {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 body {
   font-size: 40px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, "Times New Roman";
   background-color: rgb(0, 0, 0);
 }
 
-
 .paragraphs {
-  
-  font-size: 14pt;
+  font-size: 16pt;
   padding: 50px;
   text-align: justify;
-
-
-  
 }
-/* .My Work {
-    padding: 30px;
-    background:rgb(148, 156, 206);
-    color:rgb(148, 156, 206);
-} */
 
-/* .Contact13 {
-    padding: 30px;
-    background:rgb(148, 156, 206);
-    color:rgb(148, 156, 206);
-} */
+
+
 footer {
   display: flex;
   flex-direction: row;
@@ -129,21 +114,51 @@ footer a {
 }
 footer {
   height: 500;
- 
-
 }
 
 H4 {
   font-size: 25px;
-
   color: rgb(255, 249, 249);
 }
 
-.contact {
+/* .contact { 
   display:flex;
   flex-direction:column;
   text-align: right;
   font-size: 25px;
   color:rgb(197,139,23);
   padding: 20px;
-}
+} */
+/* .My Work {
+    padding: 30px;
+    background:rgb(148, 156, 206);
+    color:rgb(148, 156, 206);
+}  */
+
+/* .Contact13 {
+    padding: 30px;
+    background:rgb(148, 156, 206);
+    color:rgb(148, 156, 206);
+} */
+
+/* .grid-ish { 
+   display: flex
+   flex-wrap: wrap;
+
+ }*/
+
+ /* .projects {  
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center;
+  height: 100vh;} { */
+
+/* img { 
+  width: 250px;
+  height: 250px;
+ responsive for images  
+  width: 25%;
+  height: 100%;
+
+ }*/
