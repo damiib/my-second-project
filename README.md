@@ -1,6 +1,6 @@
 ? What is the name of your project? Portfolio
-? What is your GitHub user name? damiiB
-? What is your email? damlbro013@gmail.com
+? What is your GitHub user name? Sheluvsdesign
+? What is your email? a@gmail.com
 ? Describe your project? My project is the class homework that I have worked on in this coding Bootcamp. 
  I have two of my favorite homework assignments along with one of my group projects.  I have also include
 d a logo, links to my projects and my contact information.
@@ -11,8 +11,8 @@ d a logo, links to my projects and my contact information.
 ? What does reader needs to know about contributing to your project? There are no contribuitions
 {
   title: 'Portfolio',
-  GitHub: 'damiiB',
-  Email: 'damlbro013@gmail.com',
+  GitHub: 'Sheluvsdesign',
+  Email: 'a@gmail.com',
   description: 'My project is the class homework that I have worked on in this coding Bootcamp.  I have two of my favorite homework assignments along with one of my group projects.  I have also included a logo, links to my projects and my contact information.',
   installation: 'none',
   usage: 'There is nothing that the user needs to know',
